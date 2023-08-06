@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "fufucraft:block/rice_crop_block_stage2"
+  }
+}

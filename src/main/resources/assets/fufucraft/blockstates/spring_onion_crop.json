@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "fufucraft:block/spring_onion_crop_stage0"
+    },
+    "age=1": {
+      "model": "fufucraft:block/spring_onion_crop_stage0"
+    },
+    "age=2": {
+      "model": "fufucraft:block/spring_onion_crop_stage1"
+    },
+    "age=3": {
+      "model": "fufucraft:block/spring_onion_crop_stage1"
+    },
+    "age=4": {
+      "model": "fufucraft:block/spring_onion_crop_stage2"
+    },
+    "age=5": {
+      "model": "fufucraft:block/spring_onion_crop_stage2"
+    },
+    "age=6": {
+      "model": "fufucraft:block/spring_onion_crop_stage3"
+    },
+    "age=7": {
+      "model": "fufucraft:block/spring_onion_crop_stage3"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fufucraft:large_pack_of_rice_item"
+  },
+  "result": "fufucraft:large_bowl_of_rice"
+}

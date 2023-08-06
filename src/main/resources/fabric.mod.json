@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "fufucraft",
+  "version": "${version}",
+  "name": "FuFuCraft",
+  "description": "This is a gsn server specific mod",
+  "authors": [
+    "Astrack"
+  ],
+  "contact": {
+    "website": "https://github.com/FuFuCraft/FuFUCraft",
+    "repo": "https://github.com/FuFuCraft/FuFUCraft"
+  },
+  "license": "MIT",
+  "icon": "assets/fufucraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.abstruck.fabric.fufucraft.fufucraft.client.FuFuCraftClient"
+    ],
+    "main": [
+      "org.abstruck.fabric.fufucraft.fufucraft.FuFuCraft"
+    ],
+    "server": [
+      "org.abstruck.fabric.fufucraft.fufucraft.server.FuFuCraftServer"
+    ],
+    "fabric-datagen": [
+      "org.abstruck.fabric.fufucraft.fufucraft.FuFuCraft"
+    ]
+  },
+  "mixins": [
+    "fufucraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

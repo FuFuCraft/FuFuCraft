@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fufucraft:small_pack_of_rice_item"
+  },
+  "result": "fufucraft:small_bowl_of_rice"
+}

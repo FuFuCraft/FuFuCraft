@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "B": {
+      "item": "minecraft:minecraft:string"
+    },
+    "C": {
+      "item": "minecraft:feather"
+    },
+    "D": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

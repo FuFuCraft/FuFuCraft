@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fufucraft:small_pack_of_rice_item"
+    }
+  },
+  "result": {
+    "item": "fufucraft:large_pack_of_rice_item",
+    "count": 1
+  }
+}

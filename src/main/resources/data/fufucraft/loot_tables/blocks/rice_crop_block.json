@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fufucraft:rice_seed_item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:block_state_property",
+                "block": "fufucraft:rice_crop_block",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fufucraft:small_pack_of_rice_item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "fufucraft:rice_crop_block",
+              "properties": {
+                "age": "7"
+              }
+            },
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fufucraft:rice_seed_item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "fufucraft:rice_crop_block",
+              "properties": {
+                "age": "7"
+              }
+            },
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
